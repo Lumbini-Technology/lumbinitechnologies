@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login & Signup</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="head"> 
+  <div class="container">
+    <div class="form-container active" id="login-form">
+      <h2>Login</h2>
+      <form>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <script>
+          function button(){
+             window.open("index.html");
+              }
+        </script>
+        <button onclick="button()">Login</button>
+        <center>
+            <p><a href="#" id="signup-link">Forgot Password?</a></p>  
+        </center>
+        <p class="login-option">Don't have an account? <a href="#" id="signup-anchor">Signup</a></p>
+      </form>
+      <center><hr>or<hr></center>
+  
+      <div class="social-media">
+        <center>
+          <a href="http://www.google.co.in/">
+          <img src="img/google.png" alt="Google Logo"></a>
+          <img src="img/facebook.png" alt="Facebook Logo">
+          <img src="img/linkedin.png" alt="LinkedIn Logo">
+          <img src="img/instagram.png" alt="Instagram Logo">
+          <img src="img/twitter.png" alt="Twitter Logo">  
+        </center>
+      </div>
+    </div>
+    <div class="form-container" id="signup-form">
+      <h2>Signup</h2>
+      <form>
+        <input type="text" placeholder=" First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Create Password" required>
+        <input type="password" placeholder="Confirm Password" required>
+        <button type="submit">Signup</button>
+      </form>
+      <p class="login-option">Already have an account? <a href="#" id="login-anchor"> Login</a></p>
+      <div class="social-media">
+        <center>
+          <img src="img/google.png" alt="Google Logo">
+          <img src="img/facebook.png" alt="Facebook Logo">
+          <img src="img/linkedin.png" alt="LinkedIn Logo">
+          <img src="img/instagram.png" alt="Instagram Logo">
+          <img src="img/twitter.png" alt="Twitter Logo">
+        </center>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

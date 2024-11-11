@@ -1,0 +1,144 @@
+/* aaaaaaaa */
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFC0CB;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  .login-option {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-option a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-option a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-container {
+    display: none;
+  }
+  
+  .form-container.active {
+    display: block;
+  }
+  
+  .form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form input[type="text"],
+  .form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #3973c6;
+  }
+  
+  .form a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #4285f4;
+  }
+  
+  .form .or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .form .or hr {
+    width: 40%;
+    border: 1px solid #ccc;
+  }
+  
+  .form .or span {
+    padding: 0 10px;
+    color: #ccc;
+  }
+  
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+  } 
+    
+.social-media img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  /* .head,
+  .container{
+    background:url(../img/bg-hero.jpg);
+  } */
